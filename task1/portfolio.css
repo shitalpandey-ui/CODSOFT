@@ -1,0 +1,154 @@
+* {
+    margin: auto;
+    padding: 1px 3px;
+    background-blend-mode: darken-white;
+    box-sizing: 0 2px 5px rgba(158, 153, 153, 0.1);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 900px;
+    height: 150px;
+    margin: auto;
+}
+
+.icon {
+    width: 250px;
+    float: left;
+    height: 90px;
+}
+
+.logo {
+    color: black;
+    font-size: large0;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 20px;
+}
+
+.menu {
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 28px;
+    font-size: 16px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+
+.image {
+    width: 40px;
+    background-size: 40px;
+    height: 100vh;
+    background-image: url(images/photo.jpg);
+    border: 2 px solid gray
+}
+
+.image1 {
+    height: 40vh;
+    background-image: url(images/image1.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image1 ::before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.image1-content {
+    position: absolute;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding-left: 8px;
+}
+
+.image1-content h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.image1.content p {
+    max-width: 600px;
+    line-height: 1.0;
+    margin-bottom: 200px;
+    padding-left: 8px;
+}
+
+.about {
+    padding: 50px 10%;
+    background-color: #ffff;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-image img {
+    width: 300px;
+    border-radius: 6px;
+}
+
+.about-text title {
+    font-weight: bold;
+    margin-top: 10px
+}
+
+.about-text h2 {
+    font-size: 28px;
+    border-bottom: 3px solid #1e90ff;
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+.about-text p {
+    color: black;
+    line-height: 1.;
+    margin: 14px;
+}
+
+.btn {
+    display: flexbox;
+    padding: 12px 50px;
+    background-color: rgb(41, 41, 112);
+    color: white;
+    text-decoration-color: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: blanchedalmond;
+}
