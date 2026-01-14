@@ -1,16 +1,17 @@
 * {
     margin: auto;
     padding: 1px 3px;
-    background-blend-mode: darken-white;
-    box-sizing: 0 2px 5px rgba(158, 153, 153, 0.1);
+    background: white;
+    box-sizing: 0 2px 5px rgba(158, 153, 153, 0.1) ;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    
 }
 
 .navbar {
-    width: 900px;
+    width: 1500px;
     height: 150px;
     margin: auto;
 }
@@ -23,7 +24,7 @@ body {
 
 .logo {
     color: black;
-    font-size: large0;
+    font-size: 30px;
     font-family: Arial;
     padding-left: 10px;
     float: left;
@@ -47,7 +48,7 @@ ul li {
     list-style: none;
     margin-left: 65px;
     margin-top: 28px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 ul li a {
@@ -72,6 +73,7 @@ ul li a {
     background-size: cover;
     background-position: center;
     position: relative;
+    align-items: center;
 }
 
 .image1 ::before {
@@ -81,27 +83,29 @@ ul li a {
 }
 
 .image1-content {
-    position: absolute;
+    position: relative;
     color: black;
     display: flex;
+    font-size:20px;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding-left: 8px;
 }
 
 .image1-content h1 {
-    font-size: 30px;
+    font-size: 50px;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    align-items: left;
 }
 
 .image1.content p {
-    max-width: 600px;
+    max-width: 5\400px;
     line-height: 1.0;
     margin-bottom: 200px;
-    padding-left: 8px;
+    padding-left: 30px;
 }
 
 .about {
@@ -122,11 +126,12 @@ ul li a {
 
 .about-text title {
     font-weight: bold;
-    margin-top: 10px
+    margin-top: 10px;
+    
 }
 
 .about-text h2 {
-    font-size: 28px;
+    font-size: 30px;
     border-bottom: 3px solid #1e90ff;
     display: inline-block;
     padding-bottom: 6px;
@@ -136,6 +141,7 @@ ul li a {
     color: black;
     line-height: 1.;
     margin: 14px;
+     font-size:20px;
 }
 
 .btn {
