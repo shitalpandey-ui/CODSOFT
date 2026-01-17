@@ -49,6 +49,7 @@ body{
     display:inline-block;
     grid-column:span 4;
     padding:10px;
+    align-content: right;
 
     
 }
