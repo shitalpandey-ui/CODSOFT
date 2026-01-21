@@ -4,12 +4,11 @@
 }
 
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 90vh;
 }
 .calculator{
     background:#8478f0;
@@ -23,6 +22,7 @@ body{
     background:rgb(246, 241, 243);
     color:black;
     padding:20px;
+    font-size: xx-large;
     border-radius: 10px;
     margin-bottom: 20px;
     text-align:right;
@@ -37,6 +37,7 @@ body{
 .previous-value{
     font-size:15px;
     color:black;
+    font-weight: bold;
     min-height:20px;
 }
 .current-value{
@@ -60,9 +61,9 @@ body{
 }
 .button{
     padding:20px;
-    font-size:30px;
-    border:none;
-    border-radius: 10px;
+    font-size:50px;
+    border:3cm;
+    border-radius: 20px;
     cursor: pointer;
     transition: all 0.2s;
     font-weight: bolder;
@@ -87,5 +88,12 @@ button:active{
 .zero{
       grid-column:span 2;
     }
+.equals-btn {
+            background: #48bb78;
+            color: #fff;
+        }
 
+.equals-btn:hover {
+            background: #58cb88;
+        }
 
